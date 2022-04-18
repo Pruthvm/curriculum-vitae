@@ -1,0 +1,122 @@
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', serif;
+  font-size: 20px;
+  color:#40514E;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size:7rem;
+  line-height: 1;
+  margin-top: 0;
+  font-family: 'Sacramento',cursive ;
+  color: #FFCDDD;
+}
+h2 {
+  font-weight: normal;
+  color:#EA99D5;
+  font-family:'Montserrat',sans-serif;
+  font-size: 2rem;
+}
+h3 {
+  color:#42C2FF ;
+  font-family: 'Montserrat', serif;
+}
+hr{
+  border: dotted #FFCDDD 6px;
+  border-bottom: none;
+  width:4%;
+  margin: 100px auto;
+
+}
+
+a {
+  color: #8946A6;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.top-container {
+  background-image: url('images/bokeh.webp');
+  background-size: cover;
+height: 410px;
+max-width: 100%;
+background-repeat: no-repeat;
+ text-align: center;
+ padding-top: 100px;
+}
+.middle-container{
+margin: 100px 0;
+}
+.bottom-container{
+background-color: #B762C1;
+margin: 100px 0;
+padding: 50px 0 20px;
+}
+.skill-row{
+line-height: 2;
+margin: 100px auto 100px auto;
+width:50%;
+text-align: left;
+}
+p{
+  line-height: 2;
+}
+
+.pro{
+  text-decoration: underline;
+}
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.Java {
+float: left;
+margin-right: 30px;
+}
+.webdev {
+float: right;
+margin-left: 30px;
+}
+.sql {
+  float: left;
+  margin-right: 30px;
+}
+.contact-Message {
+  width: 40%;
+  margin: 40px auto 60px;
+
+}
+.myButton {
+	box-shadow: 3px 4px 0 0 #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #ad4bad 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Trebuchet MS;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #e1e2ed;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ad4bad 5%, #ededed 100%);
+	background-color:#ad4bad;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.COPYRIGHT {
+color: #EAF6F6;
+font-size: 1.5rem;
+}
